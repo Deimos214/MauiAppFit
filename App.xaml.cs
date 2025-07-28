@@ -15,8 +15,8 @@ namespace MauiAppFit
                 if(database == null)
                 {
                     database = new SQLiteDataBaseHelper(
-                        Path.Combine(Enviroment.GetFolderPath(
-                            Enviroment.SpecialFolder.LocalApplicationData),
+                        Path.Combine(Environment.GetFolderPath(
+                            Environment.SpecialFolder.LocalApplicationData),
                             "XamAppFit.db3"));
                 }
                 return database;
