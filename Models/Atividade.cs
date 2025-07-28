@@ -11,9 +11,9 @@ namespace MauiAppFit.Models
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
-        public string? Descricao { get; set; }
+        public string Descricao { get; set; }
         public DateTime Data {  get; set; }
         public double? Peso { get; set; }
-        public string? Obsevacoes { get; set; }
+        public string Observacoes { get; set; }
     }
 }
